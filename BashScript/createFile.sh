@@ -4,7 +4,7 @@
 BaseDir="/home/fbh/CLionProjects/acm"
 
 
-FileName="  ss  arb asrg     sadf hhh eg    "
+FileName="Path Counting"
 
 
 
@@ -25,7 +25,7 @@ mv ${BaseDir}/Coding/*    CodeAccept/
 
 cp ${BaseDir}/template/source.cpp   ${BaseDir}/Coding/"${AllFileName}"
 
-echo "" >  ${BaseDir}/InOutput/input.txt
+echo -n "" >  ${BaseDir}/InOutput/input.txt
 
 
 
