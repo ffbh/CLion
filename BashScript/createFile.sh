@@ -4,7 +4,7 @@
 BaseDir="/home/fbh/CLionProjects/acm"
 
 
-FileName="Path Counting"
+FileName="4018"
 
 
 
@@ -20,8 +20,8 @@ sed -i "s/[ ][ ]*/\\\ /g" /home/fbh/jghfdsiergierb.hghageqr
 specialFileName=$(cat /home/fbh/jghfdsiergierb.hghageqr).cpp
 rm -f /home/fbh/jghfdsiergierb.hghageqr
 
+bash ${BaseDir}/BashScript/clear.sh
 
-mv ${BaseDir}/Coding/*    CodeAccept/
 
 cp ${BaseDir}/template/source.cpp   ${BaseDir}/Coding/"${AllFileName}"
 
