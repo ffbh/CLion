@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
 
-BaseDir="/home/fbh/CLionProjects/acm"
+#BaseDir="/home/ffbh/CLionProjects/acm"
+
+BaseDir=$(dirname $(dirname $(readlink -f ${0})))
+
+
 
 
 FileName="4018"
@@ -14,11 +18,15 @@ FileName=$(echo ${FileName}| awk '{sub("^ *","");sub(" *$","");print}')
 
 AllFileName="${FileName}".cpp
 
+tempDir="/home/$(whoami)/"
 
-echo ${FileName} > /home/fbh/jghfdsiergierb.hghageqr
-sed -i "s/[ ][ ]*/\\\ /g" /home/fbh/jghfdsiergierb.hghageqr
-specialFileName=$(cat /home/fbh/jghfdsiergierb.hghageqr).cpp
-rm -f /home/fbh/jghfdsiergierb.hghageqr
+
+
+
+echo ${FileName} > ${tempDir}jghfdsiergierb.hghageqr
+sed -i "s/[ ][ ]*/\\\ /g" ${tempDir}jghfdsiergierb.hghageqr
+specialFileName=$(cat ${tempDir}jghfdsiergierb.hghageqr).cpp
+rm -f ${tempDir}jghfdsiergierb.hghageqr
 
 bash ${BaseDir}/BashScript/clear.sh
 

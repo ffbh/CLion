@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-BaseDir="/home/fbh/CLionProjects/acm"
+#BaseDir="/home/ffbh/CLionProjects/acm"
+BaseDir=$(dirname $(dirname $(readlink -f ${0})))
 OJ="zoj"
 
 path=/work/code/code/${OJ}/${OJ}/code/

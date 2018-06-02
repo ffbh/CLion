@@ -4,4 +4,4 @@ project(acm)
 set(CMAKE_CXX_STANDARD 11)
 
 
-add_executable(acm /home/fbh/CLionProjects/acm/Coding/Path\ Counting.cpp)
+add_executable(acm /home/ffbh/CLionProjects/acm/Coding/4018.cpp)
