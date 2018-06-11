@@ -18,7 +18,7 @@
 using namespace std;
 
 #ifndef ONLINE_JUDGE
-ifstream in("/home/fbh/CLionProjects/acm/InOutput/input.txt");
+ifstream in("/home/ffbh/CLionProjects/acm/InOutput/input.txt");
 #endif
 
 #ifdef ONLINE_JUDGE
@@ -31,8 +31,9 @@ typedef long long LL;
 #define pll pair<LL,LL>
 #define mp make_pair
 #define pb push_back
-#define lson (root<<1)  
-#define rson (root<<1|1)  
+#define lson (root<<1)
+#define rson (root<<1|1)
+
 
 
 
