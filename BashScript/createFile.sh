@@ -4,7 +4,7 @@
 #BaseDir="/home/ffbh/CLionProjects/acm"
 
 BaseDir=$(dirname $(dirname $(readlink -f ${0})))
-
+project=$(basename ${BaseDir})
 
 
 
@@ -51,7 +51,7 @@ echo "${CmakeCmd}" >> ${BaseDir}/CMakeLists.txt
 
 echo -e "\n" >> ${BaseDir}/CMakeLists.txt
 
-echo -n "add_executable(acm " >> ${BaseDir}/CMakeLists.txt
+echo -n "add_executable(${project} " >> ${BaseDir}/CMakeLists.txt
 
 echo -n "${BaseDir}/Coding/" >> ${BaseDir}/CMakeLists.txt
 
