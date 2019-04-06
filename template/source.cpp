@@ -33,7 +33,7 @@ typedef long long LL;
 #define pb push_back
 #define lson (root<<1)
 #define rson (root<<1|1)
-
+#define FFLUAHALL fflush(stdin);fflush(stdout);
 
 
 
