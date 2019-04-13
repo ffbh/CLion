@@ -36,6 +36,13 @@ typedef long long LL;
 #define FFLUAHALL fflush(stdin);fflush(stdout);
 
 
+void _init(){
+
+
+
+}
+
+
 
 
 void input(){
@@ -50,6 +57,7 @@ int main(){
 	int TEST_CASE = 1;
 	//in >> TEST_CASE;
 	while (TEST_CASE-- > 0){
+		 _init();
 		input();
 
 
