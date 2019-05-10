@@ -36,16 +36,17 @@ typedef long long LL;
 #define FFLUAHALL fflush(stdin);fflush(stdout);
 
 
-void _init(){
-
-
-
-}
 
 
 
 
 void input(){
+
+
+
+}
+
+void _init(){
 
 
 
