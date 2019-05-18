@@ -19,10 +19,12 @@ using namespace std;
 
 #ifndef ONLINE_JUDGE
 ifstream in("/home/ffbh/CLionProjects/acm/InOutput/input.txt");
+#define Debug(v) cerr<<#v<<"="<<v<<'\n'
 #endif
 
 #ifdef ONLINE_JUDGE
 istream& in = cin;
+#define Debug(v) ;
 #endif
 
 
